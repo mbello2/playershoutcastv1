@@ -264,8 +264,8 @@
         }
 
         $( ".imagem-teste" ).empty();
-        $("body").append(
-          '<div class="imagem-teste"> <img src="' + image + '"/> </div>'
+        $(".imagem-teste").append(
+          '<div class="imagem-teste"> <img  src="' + image + ' "/> </div>'
         );
 
         $(".blur", thisObj).css("background-image", "url(" + image + ")");
