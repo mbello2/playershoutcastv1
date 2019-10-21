@@ -1,4 +1,4 @@
-/*! SHOUTcast & Icecast Radio Player  v1.1 (2/7/17) | (c) 2017, Danial Sabagh | http://danialsabagh.com |
+/*! SHOUTcast & Icecast Radio Player  v2.1 (21/09/19) | (c) 2019, Matheus Bello | https://fuckgame.ml |
  */
 
 (function($) {
