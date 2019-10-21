@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>DS Audio Player</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- required links -->
+    <script src="http://code.jquery.com/jquery-2.1.4.min.js"></script>
+
+
+</head>
+<body>
+
+<div class="shiPlayer" id="radio1" data-tag=""></div>
+
+<div class="imagem-teste"></div>
+
+
+<script src="picjs.js"></script>
+<script>
+    $("#radio1").shiPlayer({
+        type: "SHOUTCAST",
+        URL: "http://srv8.meuvox.top:7920",
+        radio_logo: "radioLogo.jpg",
+    });
+	
+</script>
+
+</body>
+</html>
